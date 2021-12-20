@@ -1,0 +1,118 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.title {
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin: 30px;
+    text-align: center;
+}
+
+.chicken {
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin: 0px;
+    text-align: center;
+    border-left: 3px solid black;
+    border-bottom: 3px solid black;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 150px;
+    background-color: lightsalmon;
+}
+
+.beef {
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin: 0px;
+    text-align: center;
+    border-left: 3px solid black;
+    border-bottom: 3px solid black;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 150px;
+    background-color: lightpink;
+}
+
+.sushi {
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin: 0px;
+    text-align: center;
+    border-left: 3px solid black;
+    border-bottom: 3px solid black;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 150px;
+    background-color: lightsteelblue;
+}
+
+.food1 {
+    float: left;
+    border: 3px solid black;
+    position: relative;
+    background-color: lightgray;
+    margin: 10px;
+    
+}
+
+.food2 {
+    float: left;
+    border: 3px solid black;
+    position: relative;
+    background-color: lightgray;
+    margin: 10px;
+}
+
+.food3 {
+    float: left;
+    border: 3px solid black;
+    position: relative;
+    background-color: lightgray;
+    margin: 10px;
+}
+
+p {
+    padding-top: 30px;
+    margin: 20px;
+    position: relative;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+@media (min-width: 992px) {
+    .food1 {
+        width: 30%;
+    }
+    .food2 {
+        width: 30%;
+    }
+    .food3 {
+        width: 30%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .food1 {
+        width: 45%;
+    }
+    .food2 {
+        width: 45%;
+    }
+    .food3 {
+        width: 90%;
+    }
+}
+
+@media (max-width: 767px) {
+    .food1 {
+        width: 90%;
+    }
+    .food2 {
+        width: 90%;
+    }
+    .food3 {
+        width: 90%;
+    }
+}
